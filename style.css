@@ -1,0 +1,43 @@
+/**Font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+   font-family: 'Work Sans', sans-serif;
+}
+
+body {
+   background-color: #f2ead3 !important;
+}
+
+/*************************************/
+/* General */
+/*************************************/
+
+/*************************************/
+/* Navigation */
+/*************************************/
+#navbar {
+   background-color: #3f2305;
+}
+
+nav ul li:not(:last-child) {
+   margin-right: 10px;
+}
+
+#contact {
+   color: #3f2305;
+   background-color: #ffb1ae;
+   font-weight: 500;
+}
+
+/*************************************/
+/* Home */
+/*************************************/
+#home {
+   height: auto;
+   min-height: 100vh;
+}
