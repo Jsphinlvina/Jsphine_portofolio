@@ -18,36 +18,52 @@
    <!-- ------------------------------ -->
    <!-- Navigation -->
    <!-- ------------------------------ -->
-   <nav class="d-flex justify-content-center" id="navbar">
-      <div class="container m-0 py-3 ">
-         <div class="container">
-            <ul class="nav nav-pills justify-content-end">
+   <nav class="navbar navbar-expand-lg sticky-top p-3" id="navbar">
+      <div class="container">
+         <a class="navbar-brand text-light py-2" href="#" id="logo"><img src="img/icon.png" alt="logo" width="50"></a>
+         <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
                <li class="nav-item">
-                  <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                  <a class="nav-link px-2 text-light" aria-current="page" href="#">Home</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">About</a>
+                  <a class="nav-link px-2 text-light" href="#">Skills</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Skill</a>
+                  <a class="nav-link px-2 text-light" href="#">Experience</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Experience</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Portofolio</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link active" aria-disabled="true" id="contact">Contact Me</a>
+                  <a class="nav-link px-2 me-5 text-light" href="#">Portofolio</a>
                </li>
             </ul>
+            <div class="d-flex ps-0 mx-2">
+               <a class="nav-link py-2 px-3 rounded" href="#" id="contact">Contact Me</a>
+            </div>
          </div>
       </div>
    </nav>
    <!-- ------------------------------ -->
    <!-- Home -->
    <!-- ------------------------------ -->
-   <section id="home"></section>
+   <section class="d-flex align-items-center text-light" id="home">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <h4>Hello, I'm</h4>
+               <h1>Josephine Alvina Luwia</h1>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4 d-flex align-items-start ">
+               <img src="img/profile.jpg" alt="profile" width="300" id="profile">
+               <img src="img/profile.jpg" alt="profile" width="300" id="rectangel">
+            </div>
+         </div>
+      </div>
+   </section>
 
    <!-- JS Bootstrap -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

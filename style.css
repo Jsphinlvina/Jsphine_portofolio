@@ -1,5 +1,5 @@
 /**Font */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Work+Sans:wght@300;400;500&display=swap');
 
 * {
    margin: 0;
@@ -25,7 +25,11 @@ body {
 }
 
 nav ul li:not(:last-child) {
-   margin-right: 10px;
+   margin-right: 50px;
+}
+
+#logo {
+   font-family: 'Roboto Mono', monospace;
 }
 
 #contact {
@@ -39,5 +43,18 @@ nav ul li:not(:last-child) {
 /*************************************/
 #home {
    height: auto;
-   min-height: 100vh;
+   min-height: calc(100vh - 98px);
+}
+
+#profile{
+   border-radius: 5%;
+   z-index: 1;
+}
+
+#rectangel{
+   border-color: white;
+   border-radius: 5%;
+   margin-top: 30px;
+   margin-left: -275px;
+   opacity: 0.5;
 }
