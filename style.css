@@ -1,5 +1,5 @@
 /**Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Work+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
 
 * {
    margin: 0;
@@ -16,6 +16,9 @@ body {
 /*************************************/
 /* General */
 /*************************************/
+.fontcolor {
+   color: #3f2305;
+}
 
 /*************************************/
 /* Navigation */
@@ -26,10 +29,6 @@ body {
 
 nav ul li:not(:last-child) {
    margin-right: 50px;
-}
-
-#logo {
-   font-family: 'Roboto Mono', monospace;
 }
 
 #contact {
@@ -43,18 +42,50 @@ nav ul li:not(:last-child) {
 /*************************************/
 #home {
    height: auto;
-   min-height: calc(100vh - 98px);
+   min-height: calc(100vh - 82px);
 }
 
-#profile{
+#profile {
    border-radius: 5%;
    z-index: 1;
 }
 
-#rectangel{
+#rectangel {
    border-color: white;
    border-radius: 5%;
    margin-top: 30px;
    margin-left: -275px;
    opacity: 0.5;
+}
+
+/*************************************/
+/* About */
+/*************************************/
+#about {
+   background-color: #f2ead3;
+}
+
+th,
+td {
+   padding: 15px 50px 15px 0px;
+}
+
+.link{
+   color: #3f2305;
+   font-weight: 500;
+   text-decoration: none;
+}
+
+/*************************************/
+/* Experience */
+/*************************************/
+#experience{
+   min-height: 100vh;
+   color: white;
+}
+
+.line{
+   width: 50%;
+   margin: auto;
+   border-radius: 5px;
 }
