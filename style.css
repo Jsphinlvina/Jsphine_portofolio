@@ -70,7 +70,7 @@ td {
    padding: 15px 50px 15px 0px;
 }
 
-.link{
+.link {
    color: #3f2305;
    font-weight: 500;
    text-decoration: none;
@@ -79,13 +79,20 @@ td {
 /*************************************/
 /* Experience */
 /*************************************/
-#experience{
-   min-height: 100vh;
+#experience {
    color: white;
 }
 
-.line{
+.line {
    width: 50%;
    margin: auto;
    border-radius: 5px;
+}
+
+/*************************************/
+/* Portofolio */
+/*************************************/
+#portofolio {
+   min-height: 100vh;
+   background-color: #f2ead3;
 }
