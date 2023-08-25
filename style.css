@@ -37,6 +37,11 @@ nav ul li:not(:last-child) {
    font-weight: 500;
 }
 
+#contact:hover {
+   color: #52391e;
+   background-color: #e69f9d;
+}
+
 /*************************************/
 /* Home */
 /*************************************/
@@ -93,6 +98,24 @@ td {
 /* Portofolio */
 /*************************************/
 #portofolio {
-   min-height: 100vh;
    background-color: #f2ead3;
 }
+
+#btncolor {
+   background-color: #3f2305;
+   font-weight: 500;
+   color: #fff;
+}
+
+#btncolor:hover {
+   background-color: #524439;
+}
+
+/*************************************/
+/* Footer */
+/*************************************/
+#footer{
+   background-color: #3f2305;
+   color: #f2ead3;
+}
+
