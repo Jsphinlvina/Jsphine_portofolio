@@ -20,6 +20,11 @@ body {
    color: #3f2305;
 }
 
+th,
+td {
+   padding: 15px 50px 15px 0px;
+}
+
 /*************************************/
 /* Navigation */
 /*************************************/
@@ -70,11 +75,6 @@ nav ul li:not(:last-child) {
    background-color: #f2ead3;
 }
 
-th,
-td {
-   padding: 15px 50px 15px 0px;
-}
-
 .link {
    color: #3f2305;
    font-weight: 500;
@@ -119,3 +119,6 @@ td {
    color: #f2ead3;
 }
 
+#img{
+   padding: 15px;
+}
