@@ -25,6 +25,10 @@ td {
    padding: 15px 50px 15px 0px;
 }
 
+.hide{
+   overflow: hidden;
+}
+
 /*************************************/
 /* Navigation */
 /*************************************/
@@ -69,7 +73,7 @@ nav ul li:not(:last-child) {
 }
 
 #firefly{
-   margin-left: -3%;
+   margin-left: -4%;
 }
 
 /*************************************/
@@ -95,7 +99,6 @@ nav ul li:not(:last-child) {
 .line {
    width: 40%;
    margin: auto;
-   border-radius: 5px;
 }
 
 /*************************************/
